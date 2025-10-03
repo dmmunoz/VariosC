@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Crear un número aleatorio de directorios
+num_directorios=$((2 + RANDOM % 5))
+
+for ((i=1; i<=num_directorios; i++))
+do
+	directorio="directory_$i"
+	mkdir $directorio
+	cd $directorio
+# Crear un número aleatorio de archivos dentro de cada directorio
+num_archivos=$((2 + RANDOM % 2))
+  for ((j=1; j<=num_archivos; j++))
+  do
+	archivo="file_$j.txt"
+	content=$((RANDOM % 2))
+	if [ "$content" -ne "1" ]
+	then
+  echo "KEEP" > $archivo
+	else
+  echo "DELETE" > $archivo
+	fi
+  done
+  cd ..
+done
