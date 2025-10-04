@@ -1,7 +1,9 @@
 /*
- * Filename: ex2.c
+ * Filename: ex3.c
+ * Ejercicio 3
+ * Realizado por : Diego Manuel Muñoz Escañuela
  */
-
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
