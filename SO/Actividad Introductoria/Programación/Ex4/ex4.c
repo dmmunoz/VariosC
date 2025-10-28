@@ -99,6 +99,8 @@ int main(int argc, char* argv[])
     printf("Han dado %d premios UNCOMMON\n", uncommon);
     printf("Han dado %d premios COMMON\n", common);
    
+
+
     for(int j=inicio; j<fin; j++)
     {
         premio = rand() % (max - min);
@@ -119,10 +121,10 @@ int main(int argc, char* argv[])
                 pokemons++;
         }
     }
-    printf("Han dado %d premios CARDS\n", epic);
-    printf("Han dado %d premios CHARACTERS\n", rare);
-    printf("Han dado %d premios WEAPONS\n", uncommon);
-    printf("Han dado %d premios POKEMONS\n", common);
+    printf("Han dado %d premios CARDS\n", cards);
+    printf("Han dado %d premios CHARACTERS\n", characters);
+    printf("Han dado %d premios WEAPONS\n", weapons);
+    printf("Han dado %d premios POKEMONS\n", pokemons);
 
     return 0;
 }
