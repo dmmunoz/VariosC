@@ -1,0 +1,7 @@
+Premio 1: Coleccion=GENSHIN (prob 30%), Rareza=COMMON (prob 45%), Probabilidad conjunta=13.50%
+Premio 2: Coleccion=POKEMON (prob 30%), Rareza=COMMON (prob 45%), Probabilidad conjunta=13.50%
+Premio 1: Coleccion=GENSHIN (prob 30%), Rareza=UNCOMMON (prob 25%), Probabilidad conjunta=7.50%
+Premio 2: Coleccion=POKEMON (prob 30%), Rareza=UNCOMMON (prob 25%), Probabilidad conjunta=7.50%
+Premio 3: Coleccion=FIFA (prob 20%), Rareza=UNCOMMON (prob 25%), Probabilidad conjunta=5.00%
+Premio 4: Coleccion=POKEMON (prob 30%), Rareza=UNCOMMON (prob 25%), Probabilidad conjunta=7.50%
+Premio 5: Coleccion=POKEMON (prob 30%), Rareza=RARE (prob 15%), Probabilidad conjunta=4.50%

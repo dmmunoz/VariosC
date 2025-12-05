@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
                 printf("Evento: El proceso ocupa CPU → READY → RUN\n");
                 estado = RUN;
             } else {
-                printf("Permanece en READY (esperando CPU)\n");
+                printf("Permanece en READY (Esperando CPU)\n");
             }
 	
         //Si entra en la condición que está en RUN vuelve a buscar una opción 
@@ -94,7 +94,7 @@ int main(int argc, char* argv[])
                 printf("Evento: Finalizacion de una llamada al sistema bloqueante  → BLOCKED → READY\n");
                 estado = READY;
             } else {
-                printf("Permanece en BLOCKED (esperando IO)\n");
+                printf("Permanece en BLOCKED (Esperando....)\n");
             }
         }
 
